@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            app:srcCompat="@drawable/aftab" />
+
+        <TextView
+            android:id="@+id/textEnrollmentNo"
+            style="@style/myTextView"
+            android:gravity="center_horizontal"
+            android:text="@string/enrollmentno"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/txtFirstName"
+            style="@style/myTextView"
+            android:text="@string/firstname" />
+
+        <TextView
+            android:id="@+id/txtMiddleName"
+            style="@style/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jikarbhai" />
+
+        <TextView
+            android:id="@+id/txtLastName"
+            style="@style/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keshodiya" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            style="@style/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="akeshodiya060@rku.ac.in" />
+
+        <TextView
+            android:id="@+id/txtPassword"
+            style="@style/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#113@fl3#690" />
+
+        <TextView
+            android:id="@+id/txtGender"
+            style="@style/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <TextView
+            android:id="@+id/txtCity"
+            style="@style/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajkot" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
